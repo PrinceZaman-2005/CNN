@@ -74,13 +74,3 @@ def create_dataset(
         test_data,
         test_labels
     )
-
-# --- Demo --- 
-
-train_data, train_labels, test_data, test_labels = create_dataset()
-
-print("Training images:", train_data.shape)
-print("Training labels:", train_labels.shape)
-
-print("Testing images:", test_data.shape)
-print("Testing labels:", test_labels.shape)
